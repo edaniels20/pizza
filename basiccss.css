@@ -1,0 +1,47 @@
+* {
+    margin: 0
+}
+.container {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.header {
+    text-align: center;
+    background-color: rgb(164, 62, 164);
+}
+.login {
+    margin: auto;
+    width: 400px;
+    text-align: center;   
+}
+.media img {
+    border: solid 4px black;
+}
+.media iframe {
+    float: left;
+    margin-left: 100px;
+}
+.prices {
+    position: relative;
+    float: right;
+    font-size: 20px;
+    margin-right: 100px;
+    width: 558px;
+    height: 314px;
+    border: 2px solid black;
+}
+.prices-child h4 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.prices .prices-child {
+    position: absolute;
+    top: 55px;
+    right: 95px;
+}
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
